@@ -1,0 +1,19 @@
+h3{
+font-size: 140px !important;
+font-family: Niconne;
+}
+
+.btn-warning:hover{
+background-color: #DBC2CF;
+}
+
+canvas{
+    animation-name: colours;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colours{
+    from{box-shadow: 1px 1px 40px #c0b5c4}
+    to{box-shadow: 1px 1px 40px #c2dbc5}
+}
